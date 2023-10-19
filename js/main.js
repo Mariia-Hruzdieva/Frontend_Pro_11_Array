@@ -1,27 +1,3 @@
-// // 1. Дан масив
-// // Знайти суму та кількість позитивних елементів.
-
-// let numbers = [16, -37, 54, -4, 72, -56, 47, 4, -16, 25, -37, 46, 4, -51, 27, -63, 4, -54, 76, -4, 12, -35, 4, 47];
-// const filteredNumbers = numbers.filter(item => item > 0);
-// const sum = filteredNumbers.reduce((sum, current) => sum + current, 0);
-// console.log('Сума позитивних елементів масиву: ' + sum);
-// console.log('Кількість позитивних елементів масиву: ' + filteredNumbers.length);
-
-// // 2. Знайти мінімальний елемент масиву та його порядковий номер.
-// const initialAccumulator = { value: undefined, index: undefined };
-// const minValueObj = numbers.reduce(function (accumulator, item, index) {
-//     if (index === 0) {
-//         accumulator.value = item;
-//         accumulator.index = index;
-//     } else if (item < accumulator.value) {
-//         accumulator.value = item;
-//         accumulator.index = index;
-//     }
-
-//     return accumulator;
-// }, initialAccumulator);
-// console.log('Мінімальний елемент масиву: ' + minValueObj.value + '; порядковий номер: ' + minValueObj.index);
-
 // 1. Дан масив. Знайти суму та кількість позитивних елементів.
 let numbers = [16, -37, 54, -4, 72, -56, 47, 4, -16, 25, -37, 46, 4, -51, 27, -63, 4, -54, 76, -4, 12, -35, 4, 47];
 const filteredNumbers = numbers.filter(item => item > 0);
